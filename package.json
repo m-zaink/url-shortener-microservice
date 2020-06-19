@@ -1,0 +1,23 @@
+{
+  "name": "url-shortner",
+  "version": "0.0.1",
+  "description": "A microservice to shorten posted urls as well as act as a redirector.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url-shortner",
+    "url",
+    "uri",
+    "short"
+  ],
+  "author": "Mohammed Sadiq",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
